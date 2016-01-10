@@ -1,0 +1,281 @@
+# Documentation style : Singular_Word <space> Plural_Word <space> Additional_Plural
+#			<space>
+
+# Note - Comment character is "#"
+
+#A
+
+addendum addenda
+
+alga algae
+
+alumna alumnae
+
+alumnus alumni
+
+analysis analyses
+
+antenna antennas antennae
+
+apparatus apparatuses
+
+appendix appendices appendixes
+
+axis axes
+
+#B
+bacillus bacilli
+
+bacterium bacteria
+
+basis bases
+
+beau beaux
+
+bison bison
+
+brother brothers brethren
+
+buffalo buffalos buffaloes
+
+bureau bureaus
+
+bus buses
+
+#C
+cactus cacti
+
+calf calves
+
+cash
+
+census censuses
+
+child children
+
+corpus corpora corpuses
+
+crisis crises
+
+criterion criteria
+
+curriculum curriculi
+
+#D
+datum data
+
+deer deer
+
+die dice
+
+diesel diesel
+
+dormouse dormice
+
+duck duck
+
+dwarf dwarfs dwarves
+
+diagnosis diagnoses
+
+#E
+echo echoes
+
+elf elves
+
+ellipsis ellipses
+
+embargo embargoes
+
+emphasis emphases
+
+erratum errata
+
+#F
+fireman firemen
+
+fish fishes
+
+focus focuses foci
+
+foot feet
+
+formula formulas formulae
+
+fungus fungi funguses
+
+#G
+genesis geneses
+
+genus genera
+
+goose geese
+
+grass grass
+
+#H
+half halves
+
+health health
+
+hero heroes
+
+hippopotamus hippopotami hippopotamuses
+
+hoof hoofs hooves
+
+hypothesis hypotheses
+
+#I
+ice ice
+
+index indices indexes
+
+#K
+knife knives
+
+#L
+latex latices latexes
+
+leaf leaves
+
+life lives
+
+loaf loaves
+
+louse lice
+
+#M
+man men
+
+matrix matrices
+
+means means 
+
+medium media
+
+memorandum memoranda
+
+millennium millenniums milennia
+
+moose moose
+
+mosquito mosquitoes
+
+mouse mice
+
+#N
+nebula nebulae nebulas
+
+neurosis neuroses
+
+nucleus nuclei
+
+#O
+oasis oases
+
+octopus octopi octopuses
+
+ovum ova
+
+ox oxen
+
+#P
+paralysis paralyses
+
+parenthesis parentheses
+
+petrol petrol
+
+person people
+
+phenomenon phenomena
+
+pike pike
+
+plankton plankton
+
+potato potatoes
+
+
+#R
+radius radii radiuses
+
+#S
+salmon salmon
+
+scarf scarfs scarves
+
+self selves
+
+sex sex
+
+sheep sheep
+
+shelf shelves
+
+scissor scissors
+
+spectrum spectra
+
+squid squid
+
+stimulus stimuli
+
+stratum strata
+
+swine swine
+
+syllabus syllabi syllabuses
+
+symposium symposia symposiums
+
+synthesis syntheses
+
+synopsis synopses
+
+#T
+tableau tableaux
+
+testis testes
+
+that those
+
+thesis theses
+
+thief thieves
+
+this these
+
+tomato tomatoes
+
+tooth teeth
+
+torpedo torpedoes
+
+trout trout
+
+#V
+vertebra vertebrae
+
+vertex vertices
+
+veto vetoes
+
+vita vitae
+
+#W
+watch watches
+
+water water
+
+wealth wealth
+
+wife wives
+
+wolf wolves
+
+woman women
+
+#Z
+zero zeros zeroes

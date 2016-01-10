@@ -1,0 +1,153 @@
+##############################################################################################################################
+  #####                                   #     #                              #                                              
+ #     #  ####   ####  #   ##   #         ##   ## ###### #####  #   ##        # #   #    #   ##   #      #   #  ####  #  #### 
+ #       #    # #    # #  #  #  #         # # # # #      #    # #  #  #      #   #  ##   #  #  #  #       # #  #      # #    
+  #####  #    # #      # #    # #         #  #  # #####  #    # # #    #    #     # # #  # #    # #        #    ####  #  #### 
+       # #    # #      # ###### #         #     # #      #    # # ######    ####### #  # # ###### #        #        # #      #
+ #     # #    # #    # # #    # #         #     # #      #    # # #    #    #     # #   ## #    # #        #   #    # # #    #
+  #####   ####   ####  # #    # ######    #     # ###### #####  # #    #    #     # #    # #    # ######   #    ####  #  #### 
+##############################################################################################################################
+
+Read the following sections for further details on the application.
+
+1) Document naming style:
+
+	Variables - If name composes of multiple words, each word
+		    is separated by a full-stop(".") and all first
+		    letters of each word should be capital EXCEPT 
+		    the first word's. If a word is an acronym 
+		    of multiple words such as POS (Parts Os Speech)
+		    It can be written in capital letters.
+		
+		eg. variable.Name
+
+	Functions - If name composes of multiple words, starting
+		    letter of each word should be capitalized.
+		    No separation characters between words.
+		
+		eg. FunctionName()
+
+	Files 	  - All letters are lower case and each word is 
+      		    separated by an underscore ("_").
+
+		eg. file_name.r
+
+	Constants - All names should begin with a lowercase letter 
+		    ("k")followed by the regular variable naming rules.
+		
+		eg. kconstant.Variable.Name
+
+    	    
+
+2) The sectors available for search and their respective code: 
+
+	        Sector	               	Code
+      ________________________________________
+	Wealth & Asset Management ------ WAM
+	Automotive --------------------- AUT
+	Banking & Capital Markets ------ BCM
+	Cleantech ---------------------- CLN
+	Consumer Products -------------- CNP
+	Education ---------------------- EDU
+	Government & Public Sector ----- GPS
+	Insurance ---------------------- INS
+	Life Sciences ------------------ LSC
+	Media & Entertainment ---------- MEN
+	Oil & Gas ---------------------- OGA
+	Power & Utilities -------------- PUT
+	Private Equity ----------------- PEQ
+	Real Estate -------------------- RES
+	Technology --------------------- TEC
+	Telecommunications ------------- TEL
+
+    	    
+
+3) CharFilter():
+
+    word.Vector: Any character Vector can be passed.
+		 eg. c("dog", "cheese", "laptop")
+
+   	   func: Any function(s) present in CharFilter
+		 eg. "MakePlur", "RemSpChar
+
+ combining.Char: Variable for the function "CharCombine",
+		 to combine each word in the vector with.
+		 Default - " "(space)
+		 eg. "#", "OR"
+
+      syn.Depth: Depth of "GetSyn" search.
+       		 eg. Any integer
+
+syn.POS.Exclude: Which Parts of Speech (POS) to exclude during
+		 "GetSyn" search.
+		 eg. c("NOUN", "VERB", "ADJECTIVE", "ADVERB") 
+
+	i) Depending on the current setting of your RStudio environment
+	   the string replace characters might be altered due to encoding
+	   problems. Go to:
+
+		File > Save With Encoding > UTF-8 > Set as default encoding for source files > OK
+
+	   To ensure that the "RemSpChar" function works properly.
+	
+	ii)
+
+
+4) TagPOS(): Function is used to identify parts of speech from a sentence:
+	     These are what the return values mean:
+
+      POS Tag              Description       	          Example
+     ________________________________________________________________   
+	CC......coordinating conjunction....................and
+	CD......cardinal number.............................1, third
+	DT......determiner..................................the
+	EX......existential.................................there, there is
+	FW......foreign word................................d’hoevre
+	IN......preposition/subordinating conjunction.......in, of, like
+	JJ......adjective...................................big
+	JJR.....adjective, comparative......................bigger
+	JJS.....djective, superlative.......................biggest
+	LS......list marke..................................1)
+	MD......modal.......................................could, will
+	NN......noun, singular or mass......................door
+	NNS.....noun plural.................................doors
+	NNP.....proper noun, singular.......................John
+	NNPS....proper noun, plural.........................Vikings
+	PDT.....predeterminer...............................both the boys
+	POS.....possessive ending...........................friend‘s
+	PRP.....personal pronoun............................I, he, it
+	PRP$....possessive pronoun..........................my, his
+	RB......adverb......................................however, usually, 
+							    naturally, here, good
+	RBR.....adverb, comparative.........................better
+	RBS.....adverb, superlative.........................best
+	RP......particle....................................give up
+	TO......to..........................................to go, to him
+	UH......interjection................................uhhuhhuhh
+	VB......verb, base form.............................take
+	VBD.....verb, past tense............................took
+	VBG.....verb, gerund/present participle.............taking
+	VBN.....verb, past participle.......................taken
+	VBP.....verb, sing. present, non-3d.................take
+	VBZ.....verb, 3rd person sing. present..............takes
+	WDT.....wh-determiner...............................which
+	WP......wh-pronoun..................................who, what
+	WP$.....possessive wh-pronoun.......................whose
+	WRB.....wh-abverb...................................where, when
+
+
+5) 
+	i) In the event of providing a context sentence to WordPlural(), 
+	   ensure that the sentence follows strict sentence formation rules.
+	   
+	   eg. "this sentence is b@d"
+	       "This sentence is well formed."
+
+6) PluralGenerator(): Function that returns the plurals of words.
+
+	i) If the check.Plur option is switched to "TRUE" then the function will
+	   run into memory issues for larger sets of data due to the function TagPOS().
+
+7) KeywordGenerator(): Function will cause problems creating a corpus using the
+		       Version 0.6 of the {tm} package. Works fine with Version
+		       0.5-10 of the {tm} package.
