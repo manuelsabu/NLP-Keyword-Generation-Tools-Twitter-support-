@@ -10,7 +10,8 @@ library(stringr)                    # KeywordGenerator()
 # Set your path here 
 # Path should be the path upto to folder which contains the required files
 # The path should not contain the trailing slash ( "/" )
-path <- "C:/Users/sudev.ac/Desktop/Code/R/trigger"
+
+path <- # Your path goes here!
 ##---------------------------------------END - Setting Path--------------------------------------##
 
 path.plural <- paste(path,'/plural_word_functions.R', sep='')
