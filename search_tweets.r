@@ -6,7 +6,8 @@ library(ROAuth)                           # ScanTwitterHandles
 # Set your path here 
 # Path should be the path upto to folder which contains the required files
 # The path should not contain the trailing slash ( "/" )
-path <- "C:/Users/sudev.ac/Desktop/Code/R/trigger"
+
+path <- # Your local path goes here
 
 path.twitter.credentials <- paste(path,'/twitteR_credentials.Rdata', sep='')
 load(path.twitter.credentials)
